@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Codificador cod = new CodificadorLetrasAlfabeticas();
+        Codificador cod = new CodificadorZenitPolar();
 
         System.out.println("Codificador: "+cod.getNome());
         System.out.println("Versao: "+cod.getDataCriacao());
